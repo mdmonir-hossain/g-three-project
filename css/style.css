@@ -1,10 +1,15 @@
 /* work sans fonts from google  */
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,300&family=Open+Sans:wght@400;700&family=Work+Sans:wght@400;600;700;800&display=swap");
-
+/* Shared  */
 * {
   font-family: "Lato", sans-serif;
   font-family: "Open Sans", sans-serif;
   font-family: "Work Sans", sans-serif;
+}
+.btn-primary{
+
+  color: #FF900E;
+  
 }
 /* Header Section */
 header {
@@ -16,10 +21,10 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
-.nave-title{
-    font-size: 2.8rem;
-    font-weight: 700;
-    color: #131313;
+.nav-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #131313;
 }
 
 nav > ul {
@@ -34,4 +39,23 @@ nav li {
 nav li a {
   text-decoration: none;
   color: #424242;
+}
+/* banner section */
+.banner-content {
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+}
+.banner-title {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #131313;
+}
+.banner-description{
+  font-weight: 400; 
+  fo
+
+}
+.banner img {
+  width: 100%;
 }

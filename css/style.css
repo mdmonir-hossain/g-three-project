@@ -156,11 +156,7 @@ padding: 15px;
 .fearture-text{
   width: 50%;
 }
-.fearture-img{
-  width: 50%;
-  margin-left: 100px;
-  z-index: -1;
-}
+
 
 .card-all{
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
@@ -194,9 +190,12 @@ right: 200px;
     padding: 0px;
 
 }
-.fearture-img, .fearture-text{
+ .fearture-text{
   width: 100%;
   margin: 0px;
+}
+.feature-img img{
+  width: 100%;
 }
 .tenyears{
   position: static;
@@ -236,7 +235,7 @@ right: 200px;
     padding: 0px;
     text-align: center;
   }
-  .fearture-img img, .fearture-text{
+   .fearture-text{
     width: 100%;
   }
 
